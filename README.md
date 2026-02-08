@@ -26,6 +26,7 @@ This project is designed to highlight **best practices in authentication and aut
 ---
 
 ## 📂 Folder Structure
+```text
 SecureAccess/
 │
 ├── frontend/              # React app
@@ -42,6 +43,7 @@ SecureAccess/
 ├── docker-compose.yml      # optional, run both together
 ├── .gitignore
 └── README.md
+```
 
 
 ---
@@ -53,16 +55,19 @@ SecureAccess/
 git clone https://github.com/your-username/secureaccess.git
 cd secureaccess
 ```
-cd backend
 # Build and run with Maven
+```bash
+cd backend
 mvn clean install
 mvn spring-boot:run
+```
 
+## Install dependecies and start development server for frontend
+```bash
 cd frontend
-# Install dependencies
 npm install
-# Start development server
 npm start
+```
 
 ## 🔑 Features Demonstrated
 - **Login Flow**: User enters credentials → Backend validates → JWT issued.
@@ -96,5 +101,7 @@ By exploring this project, you’ll understand:
 ## 👨‍💻 Author
 Your Name
 Portfolio: [your-portfolio-link]
+
 LinkedIn: [your-linkedin-link]
+
 GitHub: [your-github-link]
